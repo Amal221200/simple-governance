@@ -92,7 +92,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 px-4 py-2">
       <div className="flex justify-between items-center">
         <div>
-          <h3 className="text-3xl font-bold">Governance</h3>
+          <h3 className="text-3xl font-bold">Simple Governance</h3>
         </div>
         <div className="flex gap-x-2">
           <Button onClick={handleRemoveExpired} disabled={!(proposals as Array<unknown>)?.length}>Remove Expired</Button>
